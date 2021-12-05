@@ -1,6 +1,4 @@
-import AuthenLayout from '@/components/layouts/authen'
-import React from 'react'
-
+import AuthenLayout from '@/components/layouts/authen';
 import useCurrentUser from '@/lib/hooks/useCurrentUser';
 import { useEffect,useState } from 'react';
 

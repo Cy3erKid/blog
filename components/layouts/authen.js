@@ -158,10 +158,11 @@ export default function AuthenLayout({ children }) {
       </Drawer>
       <Main open={open}>
         <DrawerHeader />
-        <Container>
-        {children}
-        </Container>
       </Main>
+
+      <Box component="div">
+        {children}
+        </Box>
     </Box>
   );
 }
